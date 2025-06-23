@@ -1,0 +1,62 @@
+{
+  "name": "chugaku-juken-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "中学受験対策の知識定着アプリ - Google Sheets連携",
+  "keywords": [
+    "education",
+    "japanese",
+    "middle-school",
+    "exam-prep",
+    "nextjs"
+  ],
+  "author": "Education Team",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf .next out",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "googleapis": "^128.0.0",
+    "lucide-react": "^0.294.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.0.0",
+    "@types/node": "^20.9.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.2",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "@tailwindcss/forms": "^0.5.7"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
